@@ -1,0 +1,21 @@
+{
+  "name": "codespaces-blank",
+  "version": "1.0.0",
+  "description": "Проект для управления задачами",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "frontend": "react-scripts start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^8.12.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
